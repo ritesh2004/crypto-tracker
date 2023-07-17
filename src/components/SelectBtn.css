@@ -1,0 +1,30 @@
+.selectBtn{
+    height: 50px;
+    min-width: 130px;
+    border: solid 2px gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: large;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+.selectBtn:hover{
+    background-color: gold;
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .selectBtn{
+        min-width: 80px;
+        height: 30px;
+        font-size: small;
+    }
+}
+@media screen and (max-width: 426px) {
+    .selectBtn{
+        min-width: 70px;
+        height: 25px;
+        font-size: smaller;
+    }
+}
